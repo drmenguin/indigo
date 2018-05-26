@@ -5,7 +5,7 @@ rvm:
 before_script:
   - gem update --system
   - gem --version
- - chmod +x travis.sh
+  - chmod +x travis.sh
 
 script: ./travis.sh
 
