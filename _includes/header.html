@@ -23,10 +23,11 @@
     </header>
 {% endif %}
 {% if showSimpleHeader == true %}
-    <header class="header-home {% if site.animation %}animated{% endif %}">
+    <header class="simple-header {% if site.animation %}animated{% endif %}">
         <h1 class="title">{{ site.name }}</h1>
         {% include social-links.html %}
     </header>
+    <header class="line"></header>
 {% endif %}
 
 {% include nav.html %}

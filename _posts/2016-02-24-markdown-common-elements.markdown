@@ -1,6 +1,7 @@
 ---
 title: "Markdown Common Elements"
 layout: post
+projects: false
 date: 2016-02-24 22:44
 image: /assets/images/markdown.jpg
 headerImage: false
@@ -8,10 +9,12 @@ tag:
 - markdown
 - elements
 star: true
-category: blog
+category: project
 author: johndoe
 description: Markdown summary with different options
 ---
+
+<section class = "list"></section>
 
 ## Summary:
 

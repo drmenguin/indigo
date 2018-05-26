@@ -32,3 +32,33 @@
         // if you put some links in your bio. ;)
         a
             font-weight: 200
+
+.simple-header
+    display: block
+    margin: 0 auto
+    text-align: center
+    position: relative
+
+.line
+    border-top: 1px solid $epsilon
+    padding: 10px 0
+    margin: 40px 0 0
+    font-size: 1.3rem
+    color: $gama
+    font-weight: 300
+    text-align: center
+    position: relative
+
+    &:before
+        display: block
+        content: " "
+        width: 7px
+        height: 7px
+        border: $epsilon 1px solid
+        position: absolute
+        top: -5px
+        left: 50%
+        margin-left: -5px
+        background: #FFF
+        box-shadow: #FFF 0 0 0 5px
+        border-radius: 3px

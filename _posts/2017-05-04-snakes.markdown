@@ -1,0 +1,10 @@
+---
+title: "Snakes: A multiplayer console-based game written in C"
+tag: 
+   - programming
+   - c
+   - networking
+projects: true
+description: A game written in ncurses which communicates with a server using Berkeley sockets.
+externalLink: https://drmenguin.github.io/snakes/
+---
