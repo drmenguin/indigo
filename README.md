@@ -5,4 +5,4 @@ This is a simple website built using [Jekyll](https://jekyllrb.com/), based off 
 <p align="center"> <img src="assets/screenshot.png"> </p>
 
 ## License
-This project is distributed in accordance with the MIT license.
+This project is distributed under the MIT license.
