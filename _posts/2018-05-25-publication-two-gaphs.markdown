@@ -1,13 +1,14 @@
 ---
 title: "Two-Graphs and NSSDs: An Algebraic Approach"
 tag: mathematics
+showdate: true
 publication: true
 authors: Irene Sciriha and Luke Collins
 journal: Discrete Applied Mathematics
 info: (in print)
 description: "This is a simple and minimalist template for Jekyll for those who likes to eat noodles."
 category: publication
-externalLink: https://google.com
+externalLink: https://www.journals.elsevier.com/discrete-applied-mathematics
 ---
 
 ![Screenshot](https://raw.githubusercontent.com/sergiokopplin/indigo/gh-pages/assets/screen-shot.png)

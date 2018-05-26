@@ -1,5 +1,6 @@
 ---
 title: "Snakes: A multiplayer console-based game written in C"
+showdate: true
 tag: 
    - programming
    - c

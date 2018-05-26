@@ -1,0 +1,11 @@
+---
+title: "MiniLang: An interpreter written in C++"
+showdate: true
+tag: 
+   - programming
+   - c++
+   - interpreter
+projects: true
+description: An interpreter for a simple programming language called MiniLang.
+externalLink: https://drmenguin.github.io/minilang-interpreter/
+---

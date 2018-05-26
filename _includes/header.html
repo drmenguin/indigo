@@ -24,7 +24,7 @@
 {% endif %}
 {% if showSimpleHeader == true %}
     <header class="simple-header {% if site.animation %}animated{% endif %}">
-        <h1 class="title">{{ site.name }}</h1>
+        <h1 class="title"><a href="{{ site.url }}">{{ site.name }}</a></h1>
         {% include social-links.html %}
     </header>
     <header class="line"></header>

@@ -1,0 +1,10 @@
+---
+title: "Multiplayer Tile Game in Java"
+showdate: true
+tag: 
+   - programming
+   - java
+projects: true
+description: A simple multiplayer tile game written in Java and HTML.
+externalLink: https://stefaniatadama.github.io/cps2002-assignment/
+---

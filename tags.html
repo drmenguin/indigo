@@ -32,8 +32,10 @@ title: Tags
             {% if post.title != null %}
                 {% if group == null or group == post.group %}
                     <li class="item">
-                        <a class="url" href="{{ site.url }}{{ post.url }}">
-                            <aside class="date"><time datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%b %d %Y" }}</time></aside>
+                        <a class="url" href="{% if post.externalLink %}{{ post.externalLink }}{% else %}{{ site.url }}{{ post.url }}{% endif %}" {% if post.externalLink %}{ target="_blank" }{% endif %}>
+                            {% if post.showdate %}
+                            <aside class="date"><time datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%b %Y" }}</time></aside>
+                            {% endif %}
                             <h3 class="title">{{ post.title }}</h3>
                         </a>
                     </li>
