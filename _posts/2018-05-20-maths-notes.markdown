@@ -11,7 +11,7 @@ externalLink: false
 ---
 
 <p align="justify">
-If you find any errors/typos in these notes, please <a href="mailto:luke@maths.com.mt" target="_blank">contact me by email</a>. Notes which are not yet linked are work-in-progress. Visit my mathematics tuition website <a href="https://maths.com.mt" target="_blank">here</a>.
+If you find any errors or typos in these notes, please <a href="mailto:luke@maths.com.mt" target="_blank">let me know by email</a>. Notes which are not yet linked are work-in-progress. Visit my mathematics tuition website <a href="https://maths.com.mt" target="_blank">here</a>.
 </p>
 
 ### A-Level Cheat Sheets
