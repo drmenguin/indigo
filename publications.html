@@ -1,15 +1,16 @@
 ---
 layout: page
-title: Projects
+title: Publications
 ---
 <section class="list">
-    <h1 class="title">Projects</h1>
+    <h1 class="title">Publications</h1>
     {% for post in site.posts %}
-        {% if post.projects %}
+        {% if post.publication %}
             <div class="item {% if post.star %}star{% endif %}">
                 <a class="url" href="{% if post.externalLink %}{{ post.externalLink }}{% else %}{{ site.url }}{{ post.url }}{% endif %}">
-                    <aside><time datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%b %d %Y" }}</time></aside>
+                    <aside><time datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%b %Y" }}</time></aside>
                     <h3 class="title">{{ post.title }}</h3>
+                    <p> {{ post.authors }}, <i>{{ post.journal }}</i> {{ post.info }} </p>
                 </a>
             </div>
         {% endif %}
