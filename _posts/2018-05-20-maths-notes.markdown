@@ -9,6 +9,7 @@ layout: simple
 description: A collection of free mathematics notes and resources ranging from GCSE (ordinary) level to undergraduate.
 externalLink: false
 ---
+[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
 
 <p align="justify">
 If you find any errors or typos in these notes, please <a href="mailto:luke@maths.com.mt" target="_blank">let me know by email</a>. Notes which are not yet linked are work-in-progress. Visit my mathematics tuition website <a href="https://maths.com.mt" target="_blank">here</a>.
