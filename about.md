@@ -9,6 +9,6 @@ layout: page
 </p>
 
 <p>
-	If you want to get in touch with me, call me on (+356) seven nine, triple zero, one two six, or send me an email by clicking on the envelope icon above.
+	I do not have any social media accounts. If you want to get in touch with me, send me an email by clicking on the envelope icon above.
 </p>
 
