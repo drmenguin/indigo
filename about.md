@@ -5,7 +5,7 @@ layout: page
 ![Profile Image]({{ site.url }}/{{ site.picture2 }})
 
 <p>
-	My name is Luke Collins. I am a fourth year maths and computer science student at the <a href="https://um.edu.mt/" target="_blank">University of Malta</a>, and the cofounder of the mobile app company <a href="https:/learnd.com.mt/" target="_blank">LearnD</a>, which has recently been funded by the University of Malta (<a href="http://takeoff.org.mt/2018/07/takeoff-seed-fund-awards-provide-support-to-take-seven-ventures-forward/" target="_blank">TOSFA</a>). I enjoy listening to classical music and playing the piano. I also tutor pure mathematics and computing to A-level students. 
+	My name is Luke Collins. I am a fourth year maths and computer science student at the <a href="https://um.edu.mt/" target="_blank">University of Malta</a>, and the cofounder of the mobile app company <a href="https://learnd.com.mt/" target="_blank">LearnD</a>, which has recently won funding from <a href="http://takeoff.org.mt/2018/07/takeoff-seed-fund-awards-provide-support-to-take-seven-ventures-forward/" target="_blank">TOSFA</a>. I enjoy listening to classical music and playing the piano. I also tutor pure mathematics and computing to A-level students. 
 </p>
 
 <p>
