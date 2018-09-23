@@ -2,9 +2,10 @@
 title: About
 layout: page
 ---
-
-![Profile Image]({{ site.url }}/{{ site.picture2 }})
+<figure>
+<img src="{{ site.url }}/{{ site.picture2 }}" alt="Me in Budapest">
 <figcaption class="caption">Photo by Stefania Damato</figcaption>
+</figure>
 <p>
 	My name is Luke Collins. I am a fourth year maths and computer science student at the <a href="https://um.edu.mt/" target="_blank">University of Malta</a>, and the cofounder of the mobile app company <a href="https://learnd.mt/" target="_blank">LearnD</a>. I enjoy listening to classical music and playing the piano. I also tutor pure mathematics and computing to A-level students.
 </p>
