@@ -1,6 +1,6 @@
 ---
 title: "Mathematics Notes and Resources"
-tag: 
+tag:
    - mathematics
    - teaching
 projects: true
@@ -38,6 +38,10 @@ These are some notes I have written on undergraduate level mathematics (and some
  - Graph Theory
  - Formal Language and Automata Theory
  - Compiler Theory
+
+### Other Topics
+Here are some notes I have written about other topics.
+ - [Legendre Polynomials]({{site.url}}/assets/files/legendre.pdf)
 
 ### Miscellaneous Resources
 Here are some other resources which may be of interest.
