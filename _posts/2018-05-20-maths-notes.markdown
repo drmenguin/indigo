@@ -15,6 +15,11 @@ externalLink: false
 If you find any errors or typos in these notes, please <a href="mailto:luke@maths.com.mt" target="_blank">let me know by email</a>. Notes which are not yet linked are work-in-progress. Visit my mathematics tuition website <a href="https://maths.com.mt" target="_blank">here</a>.
 </p>
 
+### A-level Notes
+These are notes I use while teaching my students. Any notes with version number <1 are still work-in-progress.
+ - [Elementary Algebra]({{site.url}}/assets/files/ea.pdf)
+ - [Linear Algebra]({{site.url}}/assets/files/la.pdf)
+
 ### A-Level Cheat Sheets
 These "cheat sheets" attempt to outline a particular topic as concisely as possible, ideal for revision before an exam.
  - [Coordinate Geometry]({{site.url}}/assets/files/coordinate_geometry.pdf)
