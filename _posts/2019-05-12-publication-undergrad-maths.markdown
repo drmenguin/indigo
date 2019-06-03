@@ -7,5 +7,5 @@ authors: Luke Collins
 journal: University of Malta
 description:
 category: publication
-externalLink: {{ site.url }}/maths_undergrad.pdf
+link: maths_undergrad.pdf
 --
