@@ -1,11 +1,11 @@
 ---
 title: "Undergraduate Dissertation in Mathematics"
 tag: mathematics
-showdate: false
+showyear: true
 publication: true
 authors: Luke Collins
 journal: University of Malta
 description:
 category: publication
-link: maths_undergrad.pdf
---
+internalLink: maths_undergrad.pdf
+---

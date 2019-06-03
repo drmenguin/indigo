@@ -1,10 +1,11 @@
 ---
 title: "Undergraduate Dissertation in Computer Science"
 tag: mathematics
-showdate: false
+showyear: true
 publication: true
-journal: University of Malta
 authors: Luke Collins
+journal: University of Malta
+description:
 category: publication
-externalLink: {{ site.url }}/cs_apt.pdf
---
+internalLink: cs_apt.pdf
+---

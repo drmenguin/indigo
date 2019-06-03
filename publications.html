@@ -1,16 +1,17 @@
 ---
-layout: page
 title: Publications
+layout: page
 ---
+
 <section class="list">
     <h1 class="title">Publications</h1>
     {% for post in site.posts %}
         {% if post.publication %}
             <div class="item {% if post.star %}star{% endif %}">
-                <a class="url" href="{% if post.externalLink %}{{ post.externalLink }}{% else %}{{ site.url }}{{ post.url }}{% endif %}" {% if post.externalLink %}{ target="_blank" }{% endif %}>
-                    <aside><time datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%b %Y" }}</time></aside>
+                <a class="url" href="{% if post.externalLink %}{{ post.externalLink }}{% elsif post.internalLink %}{{ site.url }}/{{ post.internalLink }}{% else %}{{ site.url }}{{ post.url }}{% endif %}" {% if post.externalLink %}{ target="_blank" }{% endif %}>
+                    {% if post.showdate or post.showyear %}<aside><time datetime="{{ post.date | date:"%d-%m-%Y" }}">{% if post.showdate %}{{ post.date | date: "%b %Y" }}{% else %}{{ post.date | date: "%Y" }}{% endif %}</time></aside>{% endif %}
                     <h3 class="title">{{ post.title }}</h3>
-                    <p> {{ post.authors }}, <i>{{ post.journal }}</i><br>{{ post.description }} </p>
+                    <p> {{ post.authors }}{% if post.journal %}, <i>{{ post.journal }}</i>{% endif %}{% if post.description %}<br>{{ post.description }}{% endif %}</p>
                 </a>
             </div>
         {% endif %}

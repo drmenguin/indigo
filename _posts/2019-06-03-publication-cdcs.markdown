@@ -4,6 +4,7 @@ tag: mathematics
 showdate: true
 publication: true
 authors: Luke Collins and Irene Sciriha
-description: <i>To appear</i>
+journal: to appear
 category: publication
+externalLink: https://www.sciencedirect.com/science/
 ---
