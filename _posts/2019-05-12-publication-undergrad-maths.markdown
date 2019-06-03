@@ -5,7 +5,7 @@ showdate: false
 publication: true
 authors: Luke Collins
 journal: University of Malta
-info:
+description:
 category: publication
 externalLink: {{ site.url }}/maths_undergrad.pdf
 --
