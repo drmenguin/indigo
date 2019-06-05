@@ -10,7 +10,7 @@
                     <ul>
                     {% endif %}
                     <li class="relatedPost">
-                        <a href="{% if post.externalLink %}{{ post.externalLink }}{% else %}{{ site.url }}{{ post.url }}{% endif %}">{{ post.title }}
+                        <a href="{% if post.externalLink %}{{ post.externalLink }}{% elsif post.internalLink %}{{ site.url }}/{{ post.internalLink }}{% else %}{{ site.url }}{{ post.url }}{% endif %}">{{ post.title }}
                         {% if post.series %}
                             (Series: {{ post.series }})
                         {% endif %}
