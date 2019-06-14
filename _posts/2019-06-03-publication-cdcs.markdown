@@ -6,5 +6,5 @@ publication: true
 authors: Luke Collins and Irene Sciriha
 journal: to appear
 category: publication
-externalLink: https://www.sciencedirect.com/science/
+externalLink: https://arxiv.org/abs/1906.05790
 ---
